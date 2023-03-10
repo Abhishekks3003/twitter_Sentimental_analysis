@@ -1,0 +1,8 @@
+# Authentication
+consumerKey = “Type your consumer key here”
+consumerSecret = “Type your consumer secret here”
+accessToken = “Type your accedd token here”
+accessTokenSecret = “Type your access token secret here”
+auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
+auth.set_access_token(accessToken, accessTokenSecret)
+api = tweepy.API(auth)
