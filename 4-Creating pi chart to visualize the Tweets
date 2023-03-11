@@ -8,3 +8,7 @@ plt.legend(labels)
 plt.title(“Sentiment Analysis Result for keyword= “+keyword+”” )
 plt.axis(‘equal’)
 plt.show()
+
+
+#looking the tweets
+tweet_list
